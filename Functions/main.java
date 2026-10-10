@@ -1,7 +1,16 @@
 package Functions;
+
+import java.util.Scanner;
+
 public class main{
+    public static void PrintMyName(String name){
+        System.out.println(name);
+        return;
+    }
     public static void main(String args[]){
-         
-        System.out.print("Hello world");
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+
+    PrintMyName(name);
     }
 }
